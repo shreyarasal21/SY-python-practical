@@ -1,0 +1,10 @@
+print("____customer feedback____".center(70).upper())
+name = (input("enter your name:".title()))
+product_name = (input("enter product name:".capitalize()))
+feedback = (input("enter your feedback:".capitalize()))
+
+print("______display feedback_____".center(70).upper())
+print("name:",name.upper().ljust(70))
+print("product name:",product_name.upper().ljust(70))
+print("feedback:",feedback.ljust(70).upper())
+print("____thank you for given feedback____")
